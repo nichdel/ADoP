@@ -6,6 +6,7 @@ next = folder + 'next.txt'
 
 links = os.listdir(folder)
 
+links.remove('next.txt')
 links.sort()
 links.reverse()
 
